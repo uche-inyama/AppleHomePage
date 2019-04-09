@@ -1,7 +1,9 @@
 linters:
-  eslint:
-        config: './.eslintrc.json'
-    csslint: 
+  stylelint:
+        fixer: true
 files:
-      ignore: 
-                -'bower_components/*'
+  ignore:
+    - 'bower_components/*'
+
+fixers:
+  enabled: true
