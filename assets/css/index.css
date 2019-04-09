@@ -167,7 +167,7 @@ footer p span{
     padding-left: .6em;
 }
 
-li:hover{
+li.nav-link:hover{
 	cursor: pointer;
 	background-color:#333;
 }
